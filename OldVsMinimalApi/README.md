@@ -13,4 +13,4 @@ Tests done with [NBomber](https://github.com/PragmaticFlow/NBomber).
 ## Results
 
 Stress test results showing 'minimal' API being faster (17% request per second performance increase from controller-styled app).  
-<img src="StressTests/media/results.png" alt="drawing" />
+<img src="./StressTests/media/results.png" alt="results" />
