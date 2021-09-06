@@ -10,6 +10,7 @@ var baseAddress = "https://localhost";
 
 var oldApiAll = Step.Create("old_api_all_step", clientFactory, async ctx => await Get(ctx, 5003));
 var oldApiSpecific = Step.Create("old_api_specific_step", clientFactory, async ctx => await Get(ctx, 5003, $"/{PersonServiceTestData.TestPersonGuid}"));
+
 var minimalApiAll = Step.Create("minimal_api_all_step", clientFactory, async ctx => await Get(ctx, 5001));
 var minimalApiSpecific = Step.Create("minimal_api_specific_step", clientFactory, async ctx => await Get(ctx, 5001, $"/{PersonServiceTestData.TestPersonGuid}"));
 
