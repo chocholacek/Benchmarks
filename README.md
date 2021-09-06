@@ -2,4 +2,4 @@
 
 ## Contents
 
-* [Classic .NET Web api vs. .NET 6 minimal API style stress tests](OldVsMinimalApi/)
+* [Classic .NET Web API vs. .NET 6 minimal API style stress tests](OldVsMinimalApi/)
