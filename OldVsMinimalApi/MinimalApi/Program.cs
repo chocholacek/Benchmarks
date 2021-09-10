@@ -6,4 +6,9 @@ builder.Services.AddEndpointConfigurations();
 using var app = builder.Build();
 app.UseConfiguredEndpoints();
 
+if (builder.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
 await app.RunAsync();
